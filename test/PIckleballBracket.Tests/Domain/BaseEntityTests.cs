@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Collections.Concurrent;
 using System.Linq;
 
-namespace PIckleballBracket.Tests.Domain;
+namespace PickleballBracket.Tests.Domain;
 
 public class BaseEntityTests
 {

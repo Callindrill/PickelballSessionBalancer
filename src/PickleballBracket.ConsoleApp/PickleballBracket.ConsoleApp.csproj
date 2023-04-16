@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PickleballBracket.Agent.Training\PickleballBracket.Agent.Training.csproj" />
+		<ProjectReference Include="..\PickleballBracket.Agent.Utilization\PickleballBracket.Agent.Utilization.csproj" />
+		<ProjectReference Include="..\PickleballBracket.Agent\PickleballBracket.Agent.csproj" />
+		<ProjectReference Include="..\PickleballBracket.Domain\PickleballBracket.Domain.csproj" />
+		<ProjectReference Include="..\PickleballBracket.Evaluation\PickleballBracket.Evaluation.csproj" />
+	</ItemGroup>
+
+</Project>
