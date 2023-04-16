@@ -22,15 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Agent\Utilization\" />
-    <Folder Include="Agent\Training\" />
-    <Folder Include="Evaluation\" />
-    <Folder Include="ConsoelApp\" />
-    <Folder Include="Optimization\" />
-    <Folder Include="Evaluation\Rules\" />
-  </ItemGroup>
-
-  <ItemGroup>
 		<ProjectReference Include="..\..\src\PickleballBracket.Agent.Training\PickleballBracket.Agent.Training.csproj" />
 		<ProjectReference Include="..\..\src\PickleballBracket.Agent.Utilization\PickleballBracket.Agent.Utilization.csproj" />
 		<ProjectReference Include="..\..\src\PickleballBracket.Agent\PickleballBracket.Agent.csproj" />
