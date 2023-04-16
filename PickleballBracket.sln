@@ -18,6 +18,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PickleballBracket.Agent.Training", "src\PickleballBracket.Agent.Training\PickleballBracket.Agent.Training.csproj", "{5C457E1B-B96C-4DFB-8DCC-8E811E6BF406}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F712F60-4DD5-4E05-B55D-FBC439498D26}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
