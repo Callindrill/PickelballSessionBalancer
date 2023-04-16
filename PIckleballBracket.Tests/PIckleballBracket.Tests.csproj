@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Agent\Utilization\" />
+    <Folder Include="Agent\Training\" />
+    <Folder Include="Evaluation\" />
+    <Folder Include="ConsoelApp\" />
+    <Folder Include="Optimization\" />
+    <Folder Include="Evaluation\Rules\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PickleballBracket.Agent.Training\PickleballBracket.Agent.Training.csproj" />
+    <ProjectReference Include="..\PickleballBracket.Agent.Utilization\PickleballBracket.Agent.Utilization.csproj" />
+    <ProjectReference Include="..\PickleballBracket.Agent\PickleballBracket.Agent.csproj" />
+    <ProjectReference Include="..\PickleballBracket.ConsoleApp\PickleballBracket.ConsoleApp.csproj" />
+    <ProjectReference Include="..\PickleballBracket.Domain\PickleballBracket.Domain.csproj" />
+    <ProjectReference Include="..\PickleballBracket.Evaluation\PickleballBracket.Evaluation.csproj" />
+  </ItemGroup>
+
+</Project>

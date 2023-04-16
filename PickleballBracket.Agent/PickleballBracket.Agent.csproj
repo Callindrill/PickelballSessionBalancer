@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PickleballBracket.Domain\PickleballBracket.Domain.csproj" />
+    <ProjectReference Include="..\PickleballBracket.Evaluation\PickleballBracket.Evaluation.csproj" />
+  </ItemGroup>
+
+</Project>
